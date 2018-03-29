@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.example.surji.databasedemo.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="User Personal Info"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addContact"
+        android:text="Add Contact" />
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="viewContact"
+        android:text="View Contact" />
+
+    <Button
+        android:id="@+id/but3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="updateContact"
+        android:text="Update Contact" />
+
+    <Button
+        android:id="@+id/but4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="searchContact"
+        android:text="Search Contact" />
+
+    <Button
+        android:id="@+id/but5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="deleteContact"
+        android:text="Delete Contact" />
+
+</LinearLayout>

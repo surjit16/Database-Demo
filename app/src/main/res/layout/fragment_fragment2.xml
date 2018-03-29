@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_blue_dark"
+    android:orientation="vertical"
+    tools:context="com.example.surji.databasedemo.Fragment2">
+
+    <EditText
+        android:id="@+id/et11update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/et12update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile No."
+        android:inputType="number" />
+    />
+
+    <EditText
+        android:id="@+id/et13update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address." />
+    />
+
+    <Button
+        android:id="@+id/but12update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update User" />
+
+</LinearLayout>
